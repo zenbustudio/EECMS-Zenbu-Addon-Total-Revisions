@@ -1,3 +1,13 @@
+# Total Revisions, an example addon for Zenbu for EECMS
+
+> This addon requires [Zenbu](https://zenbustudio.com/software/zenbu) for [ExpressionEngine](https://expressionengine.com) 4 or 5 to be installed on your ExpressionEngine instance.
+
+Displays a column in [Zenbu](https://zenbustudio.com/software/zenbu) with the total revisions for each entry. An example addon for Zenbu to showcase how to add custom columns.
+
+This is done through the use of `zenbu_modify_results` and `zenbu_main_content_end` hooks present in Zenbu. See **ext.zenbu_total_revisions.php** for details.
+
+# License
+
 MIT License
 
 Copyright (c) 2019 Zenbu Studio

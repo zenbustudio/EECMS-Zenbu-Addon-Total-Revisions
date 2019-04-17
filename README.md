@@ -6,6 +6,12 @@ Displays a column in [Zenbu](https://zenbustudio.com/software/zenbu) with the to
 
 This is done through the use of `zenbu_modify_results` and `zenbu_main_content_end` hooks present in Zenbu. See **ext.zenbu_total_revisions.php** for details.
 
+## Installation
+
+1. Upload the `/system/user/addons/zenbu_total_revisions` folder (with all its contents) to your `/system/user/addons` folder.
+2. Log into your ExpressionEngine Control Panel and enable the addon from _Developer => Add-Ons_
+3. Visit the Zenbu main page. There should be a column at the end labeled **Total Revisions**.
+
 # License
 
 MIT License
